@@ -1,0 +1,22 @@
+# Entornos virtuales y caché de Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Variables de entorno y credenciales
+.env
+.env.*
+!.env.example
+
+# Datos generados y artefactos pesados de modelos
+data/raw/market_data/*.parquet
+data/processed/*.parquet
+data/results/*.csv
+models/*.pth
+models/*.joblib
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
